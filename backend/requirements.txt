@@ -1,0 +1,20 @@
+pdf2image==1.10.0
+pytesseract==0.3.0
+opencv_python==4.1.2.30
+numpy==1.19.4
+pandas==0.25.3
+pillow==7.0.0
+fastapi[all]
+
+
+### Poppler for windows ( dependency for pdf2image)
+### Go to <<https://github.com/Belval/pdf2i>> and follow steps to download poppler for Windows. Download Latest Release and unzip it somewhere.
+### You will then have to add the bin/ folder to PATH or 
+### use poppler_path = r"C:\path\to\poppler-xx\bin" as an argument in convert_from_path.
+
+
+### pytesseract pre built binary package
+### Got to <<https://github.com/tesseract-ocr/tesseract#installing-tesseract>> and click pre built binary package in install section
+### Then go and click: Windows - Tesseract at UB Mannheim in binaries section
+### And download tesseract-ocr.exe according to your system
+### And then finally install google tesseract-ocr engine
