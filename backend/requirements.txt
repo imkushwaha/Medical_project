@@ -5,6 +5,7 @@ numpy==1.19.4
 pandas==0.25.3
 pillow==7.0.0
 fastapi[all]
+pytest==7.1.2
 
 
 ### Poppler for windows ( dependency for pdf2image)
